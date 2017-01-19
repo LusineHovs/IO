@@ -1,4 +1,4 @@
-# IO
+# InputOutput
 In this repository you can find some codes relating to *working with files*.
 Below you are two examples:
 
