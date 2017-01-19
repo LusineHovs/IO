@@ -22,3 +22,6 @@ foreach (string name in array2)
 }
 ```
 
+**Outputs**
+
+<img src="https://cloud.githubusercontent.com/assets/24455176/22103760/dbded8dc-de55-11e6-9a40-ed52fa1ba92e.gif" align="left"  />
