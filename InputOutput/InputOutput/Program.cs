@@ -12,32 +12,27 @@ namespace InputOutput
         static void Main(string[] args)
         {
 
-
-            string path = @"C:\FileStream\File.txt";
+            Console.WriteLine("Write the name for creating file");
+            string name =Console.ReadLine();
+            string path = @"C:\FileStream\"+name+".txt";
             try
             {
-                using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
-                {
-                    using (StreamWriter sw = new StreamWriter(fs))
-                    {
-                        string text = "Creation and writing has done";
-                        sw.Write(text);
-                        sw.Close();
-                    }
+            FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite);
 
+            StreamWriter sw = new StreamWriter(fs);
+            string text = "Creation and writing has done";
+            sw.Write(text);
+            sw.Close();
 
-                    using (StreamReader sr = new StreamReader(path))
-                    {
-                        string line ="";
-                        if ((line = sr.ReadLine()) != null)
-                        {
-                            Console.WriteLine(line);
-                        }
-                    }
-
-                    fs.Close();
-                }
+            StreamReader sr = new StreamReader(path);
+            string line ="";
+            if ((line = sr.ReadLine()) != null)
+            {
+                Console.WriteLine(line);
             }
+                fs.Close();
+            }
+
             catch (FileNotFoundException ex)
             {
                 Console.WriteLine(ex.Message);

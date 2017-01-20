@@ -11,7 +11,9 @@ namespace GetAllDirectories
     {
         static void Main(string[] args)
         {
+         
             string[] array1 = Directory.GetDirectories(@"C:\");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("---- Directories of C: Disk----");
 
             foreach (string name in array1)
@@ -28,6 +30,7 @@ namespace GetAllDirectories
             {
                 Console.WriteLine(name);
             }
+            Console.ReadKey();
         }
     }
 }
