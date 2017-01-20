@@ -1,7 +1,7 @@
 # InputOutput
 In this repository you can find some codes relating to *working with files*.
 Below you are two examples:
-- [DesktopFilesCleaning](https://github.com/LusineHovs/IO/tree/master/GetAllDirectories)<br>
+- [DesktopFilesCleaning](https://github.com/LusineHovs/IO/tree/master/DesktopFilesCleaning)<br>
 - [GetAllDirectories](https://github.com/LusineHovs/IO/tree/master/GetAllDirectories)<br>
 - [InputOutput](https://github.com/LusineHovs/IO/tree/master/InputOutput)<br>
 
