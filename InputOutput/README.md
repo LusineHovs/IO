@@ -7,4 +7,4 @@ In this example I wrote the code, which
 
 By using try/catch blocks checks the type of exceptions.
 
-<img src="https://cloud.githubusercontent.com/assets/24455176/22144704/082e1ac0-df18-11e6-9989-b3debda35c58.gif" align="left"  />
+<img src="https://cloud.githubusercontent.com/assets/24455176/22146953/f8759eb6-df1f-11e6-9378-219fe569fc10.gif" align="left"  />
