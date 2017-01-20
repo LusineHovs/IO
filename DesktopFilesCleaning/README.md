@@ -16,4 +16,4 @@ DirectoryInfo directory = new DirectoryInfo(@"C:\Users\L.Hovsepyan\Desktop\Testi
   }
   ```
   
-  
+  <img src="https://cloud.githubusercontent.com/assets/24455176/22147689/3d32d354-df23-11e6-9854-5f61cb9e3fd0.gif" align="left"  />
